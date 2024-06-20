@@ -45,7 +45,8 @@ Weekly_Event_Report_Generation/
 ## Setup Instructions
 1. Clone the repository:
 
-git clone https://github.com/yourusername/Weekly_Event_Report_Generation.git
+git clone https://github.com/salim-mz/Weekly_Event_Report_Generation.git
+
 
 2. Navigate to the project directory:
 
