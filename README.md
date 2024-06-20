@@ -11,33 +11,35 @@ This project was developed to generate a weekly report for Mtouch, a client spec
 - **Apache Airflow**: For scheduling and automating the report generation process.
 
 ## Project Structure
+```
 Weekly_Event_Report_Generation/
 │
 ├── README.md
 ├── requirements.txt
 ├── data/
-│ └── sample_data.json
+│   └── sample_data.json
 ├── dags/
-│ ├── report_generation_dag.py
-│ └── init.py
+│   ├── report_generation_dag.py
+│   └── __init__.py
 ├── scripts/
-│ ├── fetch_data.py
-│ ├── process_data.py
-│ ├── generate_report.py
-│ └── init.py
+│   ├── fetch_data.py
+│   ├── process_data.py
+│   ├── generate_report.py
+│   └── __init__.py
 ├── tests/
-│ ├── test_fetch_data.py
-│ ├── test_process_data.py
-│ ├── test_generate_report.py
-│ └── init.py
+│   ├── test_fetch_data.py
+│   ├── test_process_data.py
+│   ├── test_generate_report.py
+│   └── __init__.py
 ├── config/
-│ ├── airflow.cfg
-│ └── init.py
+│   ├── airflow.cfg
+│   └── __init__.py
 └── utils/
-├── api_client.py
-├── data_transformer.py
-├── report_writer.py
-└── init.py
+    ├── api_client.py
+    ├── data_transformer.py
+    ├── report_writer.py
+    └── __init__.py
+```
 
 
 ## Setup Instructions
